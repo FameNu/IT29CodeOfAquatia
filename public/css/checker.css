@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+#input-block {
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 1em;
+    display: flex;
+    margin: 2em;
+    padding: .5em;
+    width: 60%;
+    background-color: aliceblue;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
+    /* border: 1px solid #ccc; */
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    font-size: 35x;
+    color: #333;
+    /* margin-right: .7em; */
+    background-color: rgba(255, 255, 255, 0);
+    /* margin-bottom: 15px; */
+}
+
+input::placeholder {
+    font-family: 'Jua', cursive;
+    color: #999;
+}
+
+button {
+    padding: 10px 50px;
+    border: none;
+    border-left: 5px solid #000;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    background-color: azure;
+    border: 2px solid #000;
+    border-radius: 1em;
+    width: 60%;
+    padding: 2em;
+    height: 535px;
+}
+
+#result > h2 {
+    margin-bottom: 1.5em;
+}
+
+#notFound {
+    font-size: 50px;
+    color: red;
+}
+
+#color {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#getColor {
+    font-size: 100px;
+}
+
+#mascot {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 2em;
+}

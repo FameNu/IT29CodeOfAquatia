@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon/pticon.gif" type="image/gif">
+    <title>Check data match</title>
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/checker.css">
+</head>
+
+<body>
+    <h1>IT29 Code of Aquatia</h1>
+    <div id="input-block">
+        <input type="text" id="id" name="id" placeholder="รหัสนักศึกษา">
+        <button onclick="searchData()" id="searchButton">Search</button>
+    </div>
+    
+    <div id="result">
+        <h2>Group Color</h2>
+        <div id="notFound" style="display: none;">Data not found</div>
+        <div id="color">
+            <div id="heading-topic" style="display: none;">
+                <h1 id="getColor"></h1>
+                <h2 id="getColorCode"></h2>
+            </div>
+            <img id="mascot" src="./images/mascot.jpg" alt="Display mascot each color">
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>

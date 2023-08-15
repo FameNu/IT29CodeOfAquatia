@@ -26,14 +26,14 @@ function searchData() {
             document.getElementById("getColorCode").innerHTML = data.colorCode;
 
             const mascotImage = document.getElementById("mascot");
-            mascotImage.src = "./images/" + data.color.toLowerCase() + ".jpg";
+            mascotImage.src = "./images/" + data.color.toLowerCase() + ".PNG";
         })
         .catch((error) => {
             console.error(error);
             console.log(error.message);
             if (error.message == 'Data not found' || error.message == 'Internal Server Error' || error.message == 'Unexpected end of JSON input') {
                 document.getElementById("notFound").style.display = "block";
-                document.getElementById("color").style.display = "none";
+                document.getElementById("heading-topic").style.display = "none";
             }
         });
 }
